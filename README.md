@@ -26,10 +26,9 @@ This system provides an **automated research assistant** that:
 * Retrieves research papers from Arxiv or uploaded PDFs
 * Filters relevant information using semantic search
 * Summarizes content using NLP techniques
-* Enables interactive Q&A with research content
 * Visualizes key concepts through knowledge graphs
 
-👉 Result: **Faster, smarter, and more efficient research analysis**
+👉 Result: **Faster, scalable, and more efficient research analysis**
 
 ---
 
@@ -46,7 +45,7 @@ NLP Summarization
    ↓
 Report Generation
    ↓
-Knowledge Graph + Chat Interface
+Knowledge Graph + Evaluation Metrics
 ```
 
 ---
@@ -57,7 +56,6 @@ Knowledge Graph + Chat Interface
 * 📄 PDF Upload & Text Extraction
 * 🧠 NLP-Based Summarization (TF-IDF)
 * 🔎 Semantic Search (Mini RAG)
-* 💬 Chat with Research Papers
 * 📊 Evaluation Metrics (Compression Ratio)
 * 📈 Knowledge Graph Visualization
 * 🧠 Memory-Based Context Tracking
@@ -72,9 +70,8 @@ Knowledge Graph + Chat Interface
 3. Semantic search filters relevant content
 4. NLP generates structured summary
 5. Knowledge graph visualizes key concepts
-6. User can interact via chat for deeper insights
 
-👉 Entire pipeline completes in seconds
+👉 Entire pipeline executes in seconds
 
 ---
 
@@ -100,19 +97,22 @@ Knowledge Graph + Chat Interface
 
 ---
 
-### 📊 Knowledge Graph & Metrics
+### 📊 Knowledge Graph
 
 ![Graph](assets/graph.png)
 
-👉 Visualizes relationships between key terms and displays evaluation metrics.
+👉 Visualizes relationships between key concepts.
 
 ---
+
 ### 📈 Evaluation Metrics
+
 ![Metrics](assets/metrics.png)
 
 👉 The system evaluates summarization quality using:
-- Original vs Summary length  
-- Compression Ratio  
+
+* Original vs Summary length
+* Compression Ratio
 
 👉 Helps measure efficiency of information extraction.
 
@@ -122,7 +122,7 @@ Knowledge Graph + Chat Interface
 
 ### Input
 
-```text
+```
 AI in healthcare diagnosis
 ```
 
@@ -132,7 +132,6 @@ AI in healthcare diagnosis
 * Key insights
 * References
 * Graph visualization
-* Interactive answers
 
 ---
 
@@ -193,7 +192,7 @@ streamlit run app/main.py
 ## 🧠 Future Improvements
 
 * Vector database integration (FAISS)
-* Chatbot with advanced reasoning
+* Advanced semantic search
 * Cloud deployment
 * Enhanced UI/UX
 
@@ -203,8 +202,7 @@ streamlit run app/main.py
 
 Swati Mishra
 
-Github : https://github.com/swati-mishra07
-
+GitHub: https://github.com/swati-mishra07
 LinkedIn: https://www.linkedin.com/in/swati-mishra-801193308
 
 ---
