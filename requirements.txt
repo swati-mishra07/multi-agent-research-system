@@ -1,0 +1,10 @@
+streamlit
+loguru
+requests
+pandas
+numpy
+matplotlib
+networkx
+PyPDF2
+nltk
+scikit-learn
